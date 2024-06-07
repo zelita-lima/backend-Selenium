@@ -1,0 +1,166 @@
+{
+  "id": "e6e3357d-91e6-4d40-809f-132b133f8c9b",
+  "version": "2.0",
+  "name": "Excluir",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "12ca6779-af60-4e73-ad52-51b8b4f42a87",
+    "name": "Excluir",
+    "commands": [{
+      "id": "6e69d0b7-6b2d-47b3-a8d7-e08ef694b990",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/index2.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a8ded57-2bb9-4c56-92f8-488b90f00d2c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73aa8dff-e4cb-4a6c-ad23-66a44dee0b2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[5]/button", "xpath:idRelative"],
+        ["xpath=//td[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d62a5713-f31d-41a6-8878-fea5a0fce84c",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(5)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(5)", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[2]/td[5]", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f41c81c-6ec3-44a1-8da3-54914cbdfcc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[5]/button", "xpath:idRelative"],
+        ["xpath=//td[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f43e7e0-3819-4012-b8c2-e97f19c23f41",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[5]/button", "xpath:idRelative"],
+        ["xpath=//td[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47c73398-56fa-405b-84f3-d9181d927a30",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[5]/button", "xpath:idRelative"],
+        ["xpath=//td[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33a78b98-5e3e-4fc6-89d7-ad9a9c55cb35",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[5]/button", "xpath:idRelative"],
+        ["xpath=//td[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d4735a3-219c-4c46-b882-ec2734db0620",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[5]/button", "xpath:idRelative"],
+        ["xpath=//td[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a03194b3-64e5-4f91-b130-a544ac2eb9f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[5]/button", "xpath:idRelative"],
+        ["xpath=//td[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d059e9a4-60fb-4a21-8f46-80beb678574c",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[5]/button", "xpath:idRelative"],
+        ["xpath=//td[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13196cd7-8a25-4f15-910f-50fa1653a1a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[5]/button", "xpath:idRelative"],
+        ["xpath=//td[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c098c37-2866-4db4-9a0e-8daa640d8a44",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[5]/button", "xpath:idRelative"],
+        ["xpath=//td[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d5e19446-4451-42d8-ba1e-517d8fc17564",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["12ca6779-af60-4e73-ad52-51b8b4f42a87"]
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}

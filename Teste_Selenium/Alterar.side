@@ -1,0 +1,547 @@
+{
+  "id": "f0beae3a-d0c0-4a7d-8a47-418a85713dcc",
+  "version": "2.0",
+  "name": "Alterar",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "d9df3cc0-8cb7-4f04-910d-683ae9b4bd90",
+    "name": "Alterar",
+    "commands": [{
+      "id": "72fa494f-d4fc-4829-9eb4-f6140379b76f",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/index2.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcd6ae24-a28c-45ba-b86f-fa5c233dd87f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9827734c-1bea-40f3-a4a9-6d6aeb7649e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(19) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(19) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[19]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[19]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8752868-2f24-4350-a501-adb0c577e209",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e785ed90-985f-4be2-b8bc-563290698b63",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "zelita lima"
+    }, {
+      "id": "510b4a2b-690d-4a18-bbcd-5cc488fce017",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4633750d-e668-43b9-aba7-ce8b96e3e6c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(18) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(18) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[18]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[18]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab8c6360-483b-400e-91ee-ac48f9005db7",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01e18a0b-8faa-4444-bdea-225769a7abb6",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Arthur "
+    }, {
+      "id": "d1166898-88d6-4080-bb71-33d7eebab453",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "23a1d46f-6117-4578-ae18-3d3ef717e672",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(17) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(17) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[17]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[17]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a98e6a3e-bcaf-402f-8147-ad3327c9673a",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf02fe03-3a7f-4d61-8a25-c34b63bf7641",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "thiago nao sei"
+    }, {
+      "id": "517696d6-83ea-4276-b254-8d7148255d78",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ddbaf823-f2af-40e5-b112-8fe437ad635b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(16) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(16) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[16]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[16]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66649157-06aa-46ff-b850-44c2c056059f",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71871ce5-7f43-4009-80dc-015c84176f39",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Arthur nao sei"
+    }, {
+      "id": "f7c8e380-f68f-4b18-ab4d-465cbfcec263",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3ef08fdd-0496-42cb-a515-5dfbcf194906",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(15) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(15) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[15]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[15]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3598b558-f887-4422-be70-4a97b10550cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70b413ac-9b0d-493c-af7b-b9949d8a7f55",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "thiago nao sei "
+    }, {
+      "id": "7a439b9f-b79d-4664-82da-f17694b2a7b3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c56267fb-001c-4495-a7ee-8dee343a44aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(14) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(14) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[14]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[14]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba7bd2b1-cc01-490d-86e7-dc036dec32e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d9c16c3-e9a2-47a2-b796-9c013a9094a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Ana nao sei"
+    }, {
+      "id": "fc359c0d-4fe5-4e34-9c3c-b301e5705d96",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "32aaab9e-bdab-478a-9e36-8ca908e67bbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(13) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(13) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[13]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[13]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "379a658d-2117-471b-8419-c14ba40cab44",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9b72f37-c5ad-4d07-acc2-f83c72e6522d",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "rosalia nao sei"
+    }, {
+      "id": "02e2f872-798a-4862-8be1-cdf576b29fa1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6e3cca45-150c-48c2-8afb-c791ed1a1ab6",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(12) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[12]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40d31e15-2010-4502-ab4a-10a74824c056",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f97010a-795e-4276-b00b-07ac3d316620",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "zelita lima"
+    }, {
+      "id": "76f3384e-99e9-43fb-88f0-1c1e435923ec",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7b267700-12d7-4896-9be7-8d0b2be7201a",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(11) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(11) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[11]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[11]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "193ba5a8-34cf-41d7-93b8-85c5f2690d80",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a255abd0-1249-4d27-914a-e3c6ba93961b",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "zelita lima"
+    }, {
+      "id": "babd0c81-0cf6-4d02-b30a-b122499cf41e",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c25b7e4-8236-486a-94cd-6182742de312",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(5) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[5]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c4f9340-00d2-46a3-8b39-b46927260c37",
+      "comment": "",
+      "command": "click",
+      "target": "css=#editForm",
+      "targets": [
+        ["css=#editForm", "css:finder"],
+        ["xpath=//form[@id='editForm']", "xpath:attributes"],
+        ["xpath=//div[@id='modal']/div/form", "xpath:idRelative"],
+        ["xpath=//div/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "814dbb40-802c-4ca9-bec9-6ec680dafc4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "037c3e22-da77-4eea-a71a-cd062da8bb2f",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Ana nao sei"
+    }, {
+      "id": "5663d950-65bf-4d5f-8839-b05f3cecae19",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "3ae6a4cb-f26a-46ec-b258-2d5812bad44e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d9df3cc0-8cb7-4f04-910d-683ae9b4bd90"]
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}
